@@ -1,0 +1,11 @@
+{
+  "name": "alsrd-lab3",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "report": "node --import tsx reports/lr3/generate-report.mjs"
+  },
+  "devDependencies": { "tsx": "^4", "typescript": "^5" },
+  "dependencies": { "docx": "^9" }
+}
